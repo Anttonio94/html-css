@@ -1,0 +1,60 @@
+REPOSITO PUBLICO
+*GITHUB.COM/GUSTAVOGUANABARA
+*gustvoguanabara.github.io
+*github.comgustavoguanabara/html-css
+------------------------------------
+
+Material de apoio:
+Historia da internt
+
+https://github.com/gustavoguanabara/html-css/tree/master/aulas-pdf
+
+para deixar marcado as tag basta colocar  &lt; < p &gt;>  less than / greater than
+
+
+
+--------------emoji------------------
+
+Para emoji é sempre indicado colocar o códiogo
+para um melhor funcuinamento.
+
+começando por "&#x" + o código.
+
+------------------------------------
+	IMAGENS
+imagem de pesquisa
+sempre é bm ver a autorização
+
+site para imagem
+
+https://unsplash.com/pt-br
+cores
+https://color.adobe.com/pt/create/color-wheel
+site rascunho
+https://wireframepro.mockflow.com/
+
+
+JPEGUE. Para imagens de fundo (background)
+PNG. Para imagens flutuantes de pequna espanção.
+PARA LOGO=fivecom.io
+FAVICON.CC
+
+configurações para imagens
+tamanho ideal
+1.500 de largura
+resolulção rasuavel
+70
+LOREN- introdução de blá blá blá...
+
+
+STRONG= Para temos em destaque
+B = Para temos em negrito 
+
+
+----------atalho-------------
+
+ctrl+shift+P = para colocar tag. seleione dando enter e coloque a tag 
+
+-----dicas---
+
+CSS= @utf8 para css
