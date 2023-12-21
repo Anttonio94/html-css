@@ -45,10 +45,28 @@ tamanho ideal
 resolulção rasuavel
 70
 LOREN- introdução de blá blá blá...
+------background----------------------
+shootreend ( abreviando todo os codigos dee background)
+
+
+color> imagem > postion > attaschament 
+MARGIN só serve para alinhamento horizontal
+
 
 
 STRONG= Para temos em destaque
 B = Para temos em negrito 
+
+
+
+----par centralizar----
+
+kit
+
+
+left:50%;
+            top:50%;
+            transform: translate(-50%, -59%);
 
 
 ----------atalho-------------
