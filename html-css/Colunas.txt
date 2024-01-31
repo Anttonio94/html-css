@@ -1,0 +1,21 @@
+		Tabela
+
+<table>
+	<thead>
+     <tr>
+	<th>
+	<td>
+	</thead>
+<tbody>
+      <tr>
+	<td  class="">
+
+<tbody>
+</table>
+
+
+*colspan= abre o duas colunas
+*rowspan= abre duas linhas
+
+<tr> tag de linha
+<td> tag de dados
