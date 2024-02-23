@@ -1,0 +1,21 @@
+dicas formulário
+
+para itens resquistados
+que nao pode faltar
+deve se colocar " requisit"
+
+
+para fazer botoes se usam as tag
+
+
+<label for="+nome para php ou alguma programça"> nome da importancia</label>
+
+<input type="text ou algum outro valor" nome=" noma dado ao valor para o html entender" id="nome do identificador para o progamador entender (maiorimportancia)">
+
+<DADOS PESSOAIS>
+<FILDSET> faz uma caixa com os dados
+<LEGEND>
+<REQUERIDS para nao enviar faltando dado importante
+<AUTOCOCOMPLET>
+
+<INPUT="FILE"> Tem a função de subir algum arquivo ou foto ( quando ele for usado deve se trocar o modo da pagina para "metodh=post")
