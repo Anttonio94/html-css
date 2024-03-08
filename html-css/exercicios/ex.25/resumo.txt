@@ -19,3 +19,15 @@ para fazer botoes se usam as tag
 <AUTOCOCOMPLET>
 
 <INPUT="FILE"> Tem a função de subir algum arquivo ou foto ( quando ele for usado deve se trocar o modo da pagina para "metodh=post")
+
+	**midia queires**
+CONFIGURAÇÃO DE TELA PARA IMPRESSORAS ( DIVE TELA E IMPRESSÃO)
+<link media="print">
+@charset "UTF-8";
+/*estilo para impressoras*/
+
+display: none; Para oculta a barra de menu na hora da impressão
+
+
+	**midia features
+
