@@ -1,0 +1,23 @@
+dicas menu responsivo
+
+menu{
+    display: block;
+}
+
+menu > ul{
+    list-style-type: none;
+
+menu > ul  > li a{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    background-color: gray;
+    text-align: center;
+    color: white;
+}
+
+
+
+
+text-align: justify;
+    margin-bottom: 10px;
