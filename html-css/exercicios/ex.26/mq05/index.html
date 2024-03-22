@@ -5,13 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilos/estilo.css">
     <title>Menu responsivo</title>
+   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+   <link rel="stylesheet" href="estilos/media-query.css">
 </head>
-<body>
+<body onresize="mudarTela">
     <header>
         <h1>Meu site</h1>
-        <menu>
+      <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
+        <menu id="itens">
             <ul>
-                <li><a href="#">opção 01</li>
+                <li><a href="#">opção 01</a></li>
                 <li><a href="#">opção 02</a></li>
                 <li><a href="#">opção 03</a></li>
                 <li><a href="#">opção 04</a></li>
@@ -19,6 +22,11 @@
             </ul>
             
         </menu>
+        <script>
+            function clickMenu() {
+                itens.style.display ='block'
+            }
+        </script>
     </header>
     <main>
         <h2>Testando media queries</h2>
@@ -30,6 +38,37 @@
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam quisquam exercitationem culpa veniam, fugiat blanditiis nisi delectus autem tempore quo dolorem recusandae mollitia officiis dignissimos porro dicta commodi reprehenderit veritatis.</p>
 
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae ipsam odit hic sed temporibus. Deleniti illum illo nobis tempora sed quae ipsum nostrum magnam facere. Dolorem molestiae ratione laborum qui.</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae molestias facere fuga tempora quam ut, nesciunt illo! Sapiente laborum rerum, ullam optio, laudantium, eos tempora fugiat culpa eius a dolorem?</p>
     </main>
+    <script>
+        function mudarTela() {
+            if (window.innerWidth >= 768) {
+                intes.style.display = 'block'
+            }
+        else {
+
+        
+            itens.style.display ='none'
+            }
+        }
+
+        function clickMenu() {
+
+            if (itens.style.display === 'none') {
+        
+                itens.style.display = 'block';
+        
+            } else {
+        
+                itens.style.display = 'none';
+        
+            }
+        
+            
+        
+        }
+        
+    </script>
 </body>
 </html>

@@ -6,7 +6,7 @@
 
 body, html{
     background-color: lightgray ;
-    disp
+    
 }
 
 header > h1{
@@ -21,7 +21,7 @@ header{
 }
 
 menu{
-    display: block;
+    display: none;
 }
 
 menu > ul{
@@ -39,6 +39,23 @@ menu > ul  > li a{
 
 menu > ul > li > a:hover{
     color:blueviolet;
+}
+i#burguer{
+
+    background-color: rgb(57, 56, 56);
+    color: white;
+    width: 100vw;
+    display: block;
+    text-align: center ;
+    padding:10px;
+    cursor: pointer;
+
+}
+
+i#burguer:hover{
+    color: white ;
+    background-color: black;
+    
 }
 main{
     width:90vw;

@@ -21,3 +21,19 @@ menu > ul  > li a{
 
 text-align: justify;
     margin-bottom: 10px;
+
+
+	criando Menu hamburguinho
+site:
+
+	icons google
+material.io
+
+
+link href="https://font.googleapis.com/icon?family=Material+Icons"
+
+
+para manter um menu responsivo
+deve se aprveitar um pouco de j.v. usando as "function {
+						if (tag/caminho.caminho.caminho = 'o que quer que aconteça')
+
